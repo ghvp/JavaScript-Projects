@@ -14,3 +14,9 @@ function test_Function() {
     sentence += " Second test sentence.";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+//Third js function.
+function Third_function() {
+    str = "This is my third function"
+    document.getElementById("test_3").innerHTML = str;
+}
