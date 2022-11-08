@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="Javascript/JavaScript_3.js"></script>
+    </head>
+
+    <body>
+        <!--START using the data attribute-->
+        <ol>
+            <li onclick="data_test(this)" id="test_1"
+            data-test = "test1">First test</li>
+
+            <li onclick="data_test(this)" id="test_2"
+            data-test = "test2">Second test</li>
+        </ol>
+
+        <p id="demo"></p>
+        <script>
+          let hello = " ";
+          hello = () => {
+            return "Hello World";
+          }
+
+          document.getElementById("demo").innerHTML = hello();
+        </script>
+    </body>
+</html>
+

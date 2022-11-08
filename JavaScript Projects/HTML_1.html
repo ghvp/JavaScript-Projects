@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="JavaScript/JavaScript_1.js"></script>
+</head>
+
+<body>
+
+<!--START of switch statement-->
+<h1>What is your favorite color?</h1>
+<h3>Pick your favorite color from this list</h3>
+<ul>
+    <li>Red</li>
+    <li>Yellow</li>
+    <li>Green</li>
+    <li>Blue</li>
+    <li>Pink</li>
+    <li>Purple</li>
+</ul>
+<h3>Enter your choice below:</h3>
+
+<input id="Color_Input" type="text">
+<button onclick="Color_Function()">Submit Color</button>
+<p id="Output"></p>
+<!--END of switch statement-->
+
+<!--document.getElementByClassName-->
+<p class="click">This text won't change!</p>
+<button onclick="Hello_World_Function()">Click here!</button>
+<!--END of getclass-->
+
+<!--canvas element practice. and adding a graphic with JS-->
+<canvas id="myCanvas" width="200" height="100" style="border: 3px solid black;"></canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World",10,50);
+</script>
+
+</body>
+</html>
